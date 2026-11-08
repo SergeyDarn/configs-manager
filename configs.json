@@ -1,0 +1,57 @@
+{
+    "dependencies": {
+        "nvim": "git@github.com:SergeyDarn/clean-nvim-config.git",
+        "manyConfigs": "git@github.com:SergeyDarn/configs.git"
+    },
+    "configs": [
+        {
+            "src": "nvim",
+            "dist": "/Users/sergeydarn/.config/nvim"
+        },
+        {
+            "src": "manyConfigs",
+            "srcInsidePath": "bat",
+            "dist": "/Users/sergeydarn/.config/bat"
+        },
+        {
+            "src": "manyConfigs",
+            "srcInsidePath": "delta",
+            "dist": "/Users/sergeydarn/.config/delta"
+        },
+        {
+            "src": "manyConfigs",
+            "srcInsidePath": "ghostty",
+            "dist": "/Users/sergeydarn/.config/ghostty"
+        },
+        {
+            "src": "manyConfigs",
+            "srcInsidePath": "lazygit",
+            "dist": "/Users/sergeydarn/.config/lazygit"
+        },
+        {
+            "src": "manyConfigs",
+            "srcInsidePath": "metapac",
+            "dist": "/Users/sergeydarn/Library/Application Support/metapac"
+        },
+        {
+            "src": "manyConfigs",
+            "srcInsidePath": "oh-my-posh",
+            "dist": "/Users/sergeydarn/.config/oh-my-posh"
+        },
+        {
+            "src": "manyConfigs",
+            "srcInsidePath": "yazi",
+            "dist": "/Users/sergeydarn/.config/yazi"
+        },
+        {
+            "src": "manyConfigs",
+            "srcInsidePath": ".gitconfig",
+            "dist": "/Users/sergeydarn/.gitconfig"
+        },
+        {
+            "src": "manyConfigs",
+            "srcInsidePath": ".zshrc",
+            "dist": "/Users/sergeydarn/.zshrc"
+        }
+    ]
+}
