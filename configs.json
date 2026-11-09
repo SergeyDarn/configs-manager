@@ -52,6 +52,16 @@
             "src": "manyConfigs",
             "srcInsidePath": ".zshrc",
             "dist": "/Users/sergeydarn/.zshrc"
+        },
+        {
+            "src": "manyConfigs",
+            "srcInsidePath": "tmux",
+            "dist": "/Users/sergeydarn/.config/tmux"
+        },
+        {
+            "src": "manyConfigs",
+            "srcInsidePath": "rmpc",
+            "dist": "/Users/sergeydarn/.config/rmpc"
         }
     ]
 }
