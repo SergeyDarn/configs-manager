@@ -48,15 +48,19 @@ func linkConfig(config utils.Config, cwd string) {
 	utils.Symlink(srcFullPath, config.Dist)
 }
 
-func Init() {
-	modulesManager.Init(log.DebugLevel)
-
-	configJson := utils.ReadConfigJson()
+func Init(shouldCloneRepos bool) {
+	if shouldCloneRepos {
+		modulesManager.Init(log.DebugLevel)
+	} else {
+		// Required to set modules directory
+		modulesUtils.InitEnv()
+	}
 
 	cwd, err := os.Getwd()
 	modulesUtils.CheckError(err, "couldn't get current working directory")
 
-	// NOTE: think about adding a conccurency here
+	// TODO: add conccurency here
+	configJson := utils.ReadConfigJson()
 	for _, config := range configJson.Configs {
 		linkConfig(config, cwd)
 	}
