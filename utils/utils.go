@@ -8,9 +8,8 @@ import (
 )
 
 type Config struct {
-	Src           string
-	SrcInsidePath string
-	Dist          string
+	Src  string
+	Dist string
 }
 
 type ConfigJson struct {

@@ -9,58 +9,47 @@
             "dist": "/Users/sergeydarn/.config/nvim"
         },
         {
-            "src": "manyConfigs",
-            "srcInsidePath": "bat",
+            "src": "manyConfigs/bat",
             "dist": "/Users/sergeydarn/.config/bat"
         },
         {
-            "src": "manyConfigs",
-            "srcInsidePath": "delta",
+            "src": "manyConfigs/delta",
             "dist": "/Users/sergeydarn/.config/delta"
         },
         {
-            "src": "manyConfigs",
-            "srcInsidePath": "ghostty",
+            "src": "manyConfigs/ghostty",
             "dist": "/Users/sergeydarn/.config/ghostty"
         },
         {
-            "src": "manyConfigs",
-            "srcInsidePath": "lazygit",
+            "src": "manyConfigs/lazygit",
             "dist": "/Users/sergeydarn/.config/lazygit"
         },
         {
-            "src": "manyConfigs",
-            "srcInsidePath": "metapac",
+            "src": "manyConfigs/metapac",
             "dist": "/Users/sergeydarn/Library/Application Support/metapac"
         },
         {
-            "src": "manyConfigs",
-            "srcInsidePath": "oh-my-posh",
+            "src": "manyConfigs/oh-my-posh",
             "dist": "/Users/sergeydarn/.config/oh-my-posh"
         },
         {
-            "src": "manyConfigs",
-            "srcInsidePath": "yazi",
+            "src": "manyConfigs/yazi",
             "dist": "/Users/sergeydarn/.config/yazi"
         },
         {
-            "src": "manyConfigs",
-            "srcInsidePath": ".gitconfig",
+            "src": "manyConfigs/.gitconfig",
             "dist": "/Users/sergeydarn/.gitconfig"
         },
         {
-            "src": "manyConfigs",
-            "srcInsidePath": ".zshrc",
+            "src": "manyConfigs/.zshrc",
             "dist": "/Users/sergeydarn/.zshrc"
         },
         {
-            "src": "manyConfigs",
-            "srcInsidePath": "tmux",
+            "src": "manyConfigs/tmux",
             "dist": "/Users/sergeydarn/.config/tmux"
         },
         {
-            "src": "manyConfigs",
-            "srcInsidePath": "rmpc",
+            "src": "manyConfigs/rmpc",
             "dist": "/Users/sergeydarn/.config/rmpc"
         }
     ]

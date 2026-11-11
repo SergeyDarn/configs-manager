@@ -41,10 +41,10 @@ func linkConfig(config utils.Config, cwd string) {
 		cwd,
 		modulesUtils.GetModulesDir(),
 		config.Src,
-		config.SrcInsidePath,
 	)
 	fmt.Println("🪚 srcFullPath:", srcFullPath)
 	fmt.Println("🪚 config.Dist:", config.Dist)
+	fmt.Println()
 	utils.Symlink(srcFullPath, config.Dist)
 }
 
