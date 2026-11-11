@@ -10,7 +10,7 @@ func main() {
 	shouldCloneRepos := flag.Bool(
 		"clone-repos",
 		false,
-		"Set to true on first usage to clone all the git repos with the configs",
+		"Set to true on first usage to clone all the configs' git repos",
 	)
 	flag.Parse()
 
