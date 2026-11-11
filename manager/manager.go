@@ -16,7 +16,7 @@ import (
 func linkConfig(config utils.Config, cwd string) {
 	fmt.Println("🪚 config:", config)
 
-	_, err := os.Stat(config.Dist)
+	_, err := os.Lstat(config.Dist)
 	isDistExists := !os.IsNotExist(err)
 
 	if err != nil && isDistExists {
