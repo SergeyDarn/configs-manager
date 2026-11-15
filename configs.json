@@ -51,6 +51,10 @@
         {
             "src": "manyConfigs/rmpc",
             "dist": "/Users/sergeydarn/.config/rmpc"
+        },
+        {
+            "src": "manyConfigs/ec",
+            "dist": "/Users/sergeydarn/.config/ec"
         }
     ]
 }
