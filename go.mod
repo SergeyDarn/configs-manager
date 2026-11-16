@@ -3,13 +3,16 @@ module configs-manager
 go 1.27.3
 
 require (
+	github.com/SergeyDarn/easy-modules-manager v0.0.0-20261116222425-7e76972d06f1
+	github.com/charmbracelet/log v0.4.1
+)
+
+require (
 	dario.cat/mergo v1.0.0 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/ProtonMail/go-crypto v1.1.6 // indirect
-	github.com/SergeyDarn/easy-modules-manager v0.0.0-20261104063849-78a5ac5727c0 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/charmbracelet/lipgloss v1.0.0 // indirect
-	github.com/charmbracelet/log v0.4.1 // indirect
 	github.com/charmbracelet/x/ansi v0.8.0 // indirect
 	github.com/cloudflare/circl v1.6.1 // indirect
 	github.com/cyphar/filepath-securejoin v0.4.1 // indirect
