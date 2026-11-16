@@ -55,6 +55,10 @@
         {
             "src": "manyConfigs/ec",
             "dist": "/Users/sergeydarn/.config/ec"
+        },
+        {
+            "src": "manyConfigs/posting",
+            "dist": "/Users/sergeydarn/.config/posting"
         }
     ]
 }
