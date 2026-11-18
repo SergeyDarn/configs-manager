@@ -59,6 +59,14 @@
         {
             "src": "manyConfigs/posting",
             "dist": "/Users/sergeydarn/.config/posting"
+        },
+        {
+            "src": "manyConfigs/jj",
+            "dist": "/Users/sergeydarn/.config/jj"
+        },
+        {
+            "src": "manyConfigs/jjui",
+            "dist": "/Users/sergeydarn/.config/jjui"
         }
     ]
 }
