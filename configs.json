@@ -67,6 +67,10 @@
         {
             "src": "manyConfigs/jjui",
             "dist": "/Users/sergeydarn/.config/jjui"
+        },
+        {
+            "src": "manyConfigs/slides",
+            "dist": "/Users/sergeydarn/.config/slides"
         }
     ]
 }
