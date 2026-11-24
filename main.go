@@ -5,26 +5,27 @@ import (
 
 	"configs-manager/manager"
 
-	"github.com/SergeyDarn/easy-modules-manager/modules"
-	modulesUtils "github.com/SergeyDarn/easy-modules-manager/utils"
+	reposManager "github.com/SergeyDarn/git-repos-manager/manager"
+	reposUtils "github.com/SergeyDarn/git-repos-manager/utils"
 )
 
+// TODO: Update README
 func main() {
 	shouldCloneRepos := flag.Bool(
 		"clone",
 		false,
-		"Set to true on first usage to clone all the configs' repositories",
+		"Set to true on first usage to clone all your repos from the config file",
 	)
 	shouldPullRepos := flag.Bool(
 		"pull",
 		false,
-		"Perform git pull for all your configs' repositories",
+		"Perform git pull in all your repos",
 	)
 	flag.Parse()
 
 	if *shouldPullRepos {
-		modulesUtils.InitEnv()
-		modules.PullModules()
+		reposUtils.InitEnv()
+		reposManager.PullRepos()
 		return
 	}
 

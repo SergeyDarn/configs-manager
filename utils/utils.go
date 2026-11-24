@@ -1,10 +1,10 @@
+// Package utils provides general utilities
 package utils
 
 import (
-	"fmt"
 	"os"
 
-	"github.com/SergeyDarn/easy-modules-manager/utils"
+	reposUtils "github.com/SergeyDarn/git-repos-manager/utils"
 )
 
 type Config struct {
@@ -12,28 +12,27 @@ type Config struct {
 	Dist string
 }
 
-type ConfigJson struct {
+type ConfigJSON struct {
 	Configs []Config
 }
 
-var configFile = "configs.json"
+const configFile = "configs.json"
 
-func ReadConfigJson() ConfigJson {
-	return utils.ReadJSON[ConfigJson](configFile)
+func ReadConfigJSON() ConfigJSON {
+	return reposUtils.ReadJSON[ConfigJSON](configFile)
 }
 
 func Symlink(src string, dist string) {
 	err := os.Symlink(src, dist)
 	if err == nil {
+		reposUtils.LogSuccessf("symlink to %s successfully created", dist)
 		return
 	}
 
-	utils.LogError(
-		fmt.Sprintf(
-			"couldn't create symlink for config %s %s, err: %s",
-			src,
-			dist,
-			err.Error(),
-		),
+	reposUtils.LogErrorf(
+		"couldn't create symlink for config %s %s, err: %s",
+		src,
+		dist,
+		err.Error(),
 	)
 }

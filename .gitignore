@@ -1,2 +1,2 @@
-go.env.local
+.env.local
 configs/
