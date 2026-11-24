@@ -3,7 +3,7 @@ module configs-manager
 go 1.27.3
 
 require (
-	github.com/SergeyDarn/git-repos-manager v1.21.0
+	github.com/SergeyDarn/git-repos-manager v1.22.0
 	github.com/charmbracelet/log v0.4.1
 )
 

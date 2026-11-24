@@ -1,5 +1,5 @@
 {
-    "dependencies": {
+    "repositories": {
         "nvim": "git@github.com:SergeyDarn/clean-nvim-config.git",
         "manyConfigs": "git@github.com:SergeyDarn/configs.git"
     },

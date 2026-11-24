@@ -10,6 +10,7 @@ import (
 )
 
 // TODO: Update README
+// TODO: move configs.json with my setup configs into a separate repository
 func main() {
 	shouldCloneRepos := flag.Bool(
 		"clone",
