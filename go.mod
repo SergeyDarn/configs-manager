@@ -3,7 +3,7 @@ module configs-manager
 go 1.27.3
 
 require (
-	github.com/SergeyDarn/easy-modules-manager v0.0.0-20261116222425-7e76972d06f1
+	github.com/SergeyDarn/easy-modules-manager v0.0.0-20261124151901-b5226d4783be
 	github.com/charmbracelet/log v0.4.1
 )
 

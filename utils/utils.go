@@ -19,7 +19,7 @@ type ConfigJson struct {
 var configFile = "configs.json"
 
 func ReadConfigJson() ConfigJson {
-	return utils.ReadJson[ConfigJson](configFile)
+	return utils.ReadJSON[ConfigJson](configFile)
 }
 
 func Symlink(src string, dist string) {
